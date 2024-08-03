@@ -132,10 +132,11 @@ header{
 }
 .Search-Your-left input{
     width: 466px;
-    padding: 23px 0 23px 20px;
+    padding: 20px 0 20px 20px;
     border-radius: 5px;
     background: rgba(246, 246, 246, 0.5);
     border: none;
+    font-family: "Poppins", sans-serif;
 }
 .Search-Your-left button{
     padding: 15px 38px 18px 38px;
@@ -186,25 +187,28 @@ header{
 .Our-Services{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     background: rgba(246, 246, 246, 0.4);
+    padding-top: 150px;
 }
 .Our-Services h3{
     color: #03045E;
     font-family: "Ubuntu", sans-serif;
     font-size: 40px;
     font-weight: 700;
-    margin: 150px 0 60px 0;
+    margin: 0 auto;
+
 }
 .Our-Services-top, .Our-Services-bottom{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 36px;
+    gap: 30px;
+    margin: 60px 0 0 224px;
 }
 .Our-Services-bottom{
-    margin: 80px 0 150px 0;
+    margin: 80px 0 150px 224px;
 }
 .Our-Services-top>div, .Our-Services-bottom>div{
     display: flex;
