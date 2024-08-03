@@ -412,8 +412,14 @@ footer{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 104px;
+    flex-direction: column;
     background: rgba(246, 246, 246, 0.4);
+}
+.footer-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 104px;
 }
 .footer-logo{
     display: flex;
@@ -425,10 +431,9 @@ footer{
 }
 .footer-logo p{
     width: 297px;
-    color: #03045E;
+    color: rgba(3, 4, 94, 0.5);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    opacity: 0.5;
 }
 .Quickl-Links, .Services, .Contact-Us{
     display: flex;
